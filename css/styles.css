@@ -50,7 +50,7 @@ layout
 
 .container {
     width: 100%;
-    padding: .25em;
+    padding: 1em;
     min-height: 100vh;
     display: flex;
     flex-direction: column;
@@ -59,8 +59,7 @@ layout
 }
 
 .card {
-    width: 35%;
-    min-width: 480px;
+    max-width: 480px;
     padding: 2.5em 1.5em;
     display: flex;
     gap: 1em;
