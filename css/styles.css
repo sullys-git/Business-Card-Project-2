@@ -9,7 +9,7 @@ body {
 }
 
 h1 {
-    font-size: 2.5rem;
+    font-size: 2rem;
     font-weight: 900;
     letter-spacing: 1.5px;
     margin: 1.5em 0;
@@ -24,12 +24,12 @@ typography
 ========== */
 
 .name {
-    font-size: 1.5rem;
+    font-size: 1.25rem;
     font-weight: 300;
 }
 
 .title {
-    font-size: 1.85rem;
+    font-size: 1.5rem;
     font-weight: 900;
     letter-spacing: 1px;
     text-transform: uppercase;
