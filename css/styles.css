@@ -1,0 +1,95 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: "Moderustic", sans-serif;
+    color: #dad7cd;
+}
+
+h1 {
+    font-size: 2.5rem;
+    font-weight: 900;
+    letter-spacing: 1.5px;
+    margin: 1.5em 0;
+}
+
+p {
+    margin: 0;
+}
+
+/* ==========
+typography
+========== */
+
+.name {
+    font-size: 1.5rem;
+    font-weight: 300;
+}
+
+.title {
+    font-size: 1.85rem;
+    font-weight: 900;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    margin-top: .25em;
+}
+
+.location {
+    font-size: .85rem;
+    font-weight: 900;
+    letter-spacing: 2.5px;
+    padding-bottom: .5em;
+    border-bottom: 10px solid #dad7cdb5;
+}
+
+/* ==========
+layout
+========== */
+
+.container {
+    width: 100%;
+    padding: 1em;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #343a40;
+}
+
+.card {
+    width: 35%;
+    min-width: 500px;
+    padding: 2.5em 1.5em;
+    display: flex;
+    gap: 1em;
+    border-radius: 5px;
+    background: linear-gradient(to bottom right, #588157, #3a5a40 );
+    border-bottom: 10px solid #dad7cd;
+    box-shadow: 0 0 3px rgb(169, 167, 167);
+}
+
+.img-div,
+.info-div {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.img-div {
+    width: 35%;
+}
+
+.info-div {
+    width: 65%;
+    text-align: center;
+    flex-direction: column;
+}
+
+img {
+    display: block;
+    width: 100%;
+    border-radius: 5px;
+}
+
